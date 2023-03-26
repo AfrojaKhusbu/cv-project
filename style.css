@@ -1,0 +1,204 @@
+:root{
+    --padding: 2rem;
+    --transition: all 0.3s;
+    --box-shadow: 0.1rem 0.2rem 0.8rem greenyellow;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: aqua;
+}
+html{
+    scroll-behavior: smooth;
+}
+.div_clear{
+    clear: both;
+}
+.container{
+    width: 1000px;
+   margin:auto;
+   padding: 20px;
+   border: 1px solid gray;
+}
+/*header starts*/ 
+.address{
+    float: left;
+    width:50%
+}
+.img1{
+    float: left;
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .15rem;
+}
+.img1:hover{
+   background-color: brown;
+   padding: .1rem;
+}
+.head_2{
+    float: left;
+    padding: 20px;
+}
+.address{
+    float: right;
+    padding: 20px;
+    text-align: right;
+    font-weight: bolder;
+}
+.add1{
+    font-size: 1rem;
+    color: black; 
+}
+.add2{
+    font-size: 1rem;
+    color: black; 
+}
+.address:hover{
+    text-decoration: underline;
+    color:  brown;
+    padding: var(--padding);
+}
+.hr1{
+    width: 100%;
+    color: sienna;
+    margin-top:1rem;
+}
+/*header ends*/   
+/*personal info starts*/   
+.personal-left{
+    width: 50%;
+    float: left;
+    color: blue;
+    padding: var(--padding);
+    font-size: 1rem;
+}
+.pre_1{
+    font-size: 1rem;
+    text-align:left;
+    margin-left: -9rem;
+}
+.personal-right{
+    width: 50%;
+    float: right;
+    padding: 1rem;
+    font-family:fantasy;
+    font-weight: bold;
+} 
+/*personal info ends*/   
+/*work exp starts*/ 
+ .work-left{
+    width: 50%;
+    float: left;
+    color: blue;
+    padding: var(--padding);
+    font-size: 1rem;
+} 
+.work_exp-1{
+    width: 50%;
+    float: right;
+    display: flex;
+    padding: 1rem;
+     
+}
+.work-right1 {  
+    width: 50%;
+    float: left;
+     
+}
+.work-right2{
+    width: 50%;
+    float: right;
+    margin-left: .6rem;
+}
+.h3_1{
+    color: brown;
+    text-decoration: underline;
+}
+.p_3{
+    color: blueviolet;
+}
+ /*work exp ends*/   
+/*Educational qualification starts*/ 
+.h3_2{
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 1rem;
+}
+.table{
+    border: 1px solid black;
+    padding:1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    border-collapse: collapse;
+}
+th{
+    font-size: 1.1rem;
+    background-color: yellowgreen;
+    color: black;
+}
+th,td{
+    border: 1px solid black;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: gray;
+    color: white;
+}
+tr:nth-child(odd):hover{
+    background-color: green;
+    font-size: 1.5rem;
+}
+tr:nth-child(even){
+    background-color:bisque;
+}
+tr:nth-child(even):hover{
+    background-color:palevioletred;
+    font-size: 1.5rem;
+}
+ /*educational qualification ends*/ 
+/*footer starts*/
+ .foot{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: .2rem;
+ }
+ ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: .8rem;
+    margin: 10px;
+ }
+ ul li a{
+   color: white;
+ }
+ ul li a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    cursor: pointer;
+  }
+ .foot p{
+    padding: .8rem;
+}
+/*footer ends*/
+/*media screen starts*/
+@media (max-width:992px){}
+     
+@media (max-width:768px){}
+   
+@media (max-width:600px){}
+/*media screen ends*/
